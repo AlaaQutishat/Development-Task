@@ -20,7 +20,7 @@
            if ( $resultfileds )
     {
       $rows["id"] = "1";
-         $rows["form_id"]=$last_id;
+         $rows["form_id"]=(string)$last_id;
         $rows["data"] = "1";
         
     }
